@@ -13,8 +13,8 @@ public class PruebaConcesionaria {
 		
 		Vehiculo peugeot206 = new Automovil("AB198034","206","Peugeot",200000.00,4);
 		Vehiculo peugeot208 = new Automovil("AB198044","208","Peugeot",250000.00,5);
-		Vehiculo hondaTitan = new Automovil("AB1456VV","Titan","Honda",60000.00,125);
-		Vehiculo yamahaYbr = new Automovil("AB1456VB","YBR","Yamaha",80500.50,160);
+		Vehiculo hondaTitan = new Moto("AB1456VV","Titan","Honda",60000.00,125);
+		Vehiculo yamahaYbr = new Moto("AB1456VB","YBR","Yamaha",80500.50,160);
 		
 		nuevo.agregarAutomovil(peugeot206);
 		nuevo.agregarAutomovil(hondaTitan);

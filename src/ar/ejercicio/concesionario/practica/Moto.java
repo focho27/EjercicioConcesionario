@@ -99,7 +99,7 @@ public class Moto extends Vehiculo{
             anotherDFormat.setGroupingUsed(true);
             anotherDFormat.setGroupingSize(3);
             
-		listado += "Marca: "+ getNombreMarca() + " // " + "Modelo: " + getNombreModelo() + " // "+ "Cilindrada: "+ getCilindrada() + " // " + "Precio: $" + anotherDFormat.format(getPrecio())+ "\n";
+		listado += "Marca: "+ getNombreMarca() + " // " + "Modelo: " + getNombreModelo() + " // "+ "Cilindrada: "+ getCilindrada() + "cc // " + "Precio: $" + anotherDFormat.format(getPrecio())+ "\n";
 		}
 		return listado;
 	}
